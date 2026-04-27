@@ -14,7 +14,6 @@ await page.click('#login-button');
 await page.waitForURL('**/inventory.html');
 
 await page.locator('.inventory_list').waitFor(); // UI-based wait
-
-  await page.locator('#add-to-cart-sauce-labs-backpack').first().click();
+await page.locator('#add-to-cart-sauce-labs-backpack').first().click();
   await page.pause();
 });
