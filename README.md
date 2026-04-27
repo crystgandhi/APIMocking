@@ -1,0 +1,10 @@
+Apitesting.spec.ts
+clickButton.spec.ts
+fileUpload.spec.ts
+login.spec.ts
+dynamicButton.spec.ts
+mockApiRequest.spec.ts
+mockResponse.spec.ts
+openNewTab.spec.ts
+sauceDemologin.spec.ts
+global.setup.ts
