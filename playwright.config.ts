@@ -13,7 +13,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
- globalSetup: './global.setup.ts',
+// globalSetup: './global.setup.ts',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -33,11 +33,8 @@ export default defineConfig({
     trace: 'on-first-retry',
     storageState: 'auth.json'  // reuse login session
   },
-      
-   
-
-
-
+  
+  
   /* Configure projects for major browsers */
   projects: [
     {
